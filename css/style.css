@@ -1,0 +1,160 @@
+/*** FONTE PERSONALIZADA ***/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+/*** RESET DAS PROPRIEDADES E VALORES ***/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+/*** CABEÇALHO ***/
+
+header{
+    height: 250px;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+   
+}
+
+/*** ESTILOS DE FONTE E TAMANHO DOS TEXTOS DA HEADER***/
+
+.text{
+    color: #ffffff;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+/*** POSICIONAMENTO DO TEXTO BLOG***/
+
+.blog{
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    left: 1445px;
+    top: 41px;
+}
+
+/*** POSICIONAMENTO DO TEXTO CODÊLANDIA ***/
+
+.codelandia{
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 401px;
+    top: 41px;
+}
+
+/*** POSICIONAMENTO E ESTILOS DA BARRA DE PESQUISA ***/
+
+input{
+    position: absolute;
+    width: 1100px;
+    height: 65px;
+    left: 400px;
+    top: 144px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-size: 30px;
+    border: none;
+}
+
+/*** POSICIONAMENTO E ESTILOS DO TEXTO PESQUISAR NO BLOG ***/
+
+.pesquisar{
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 460px;
+    top: 168px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+    color: #fff;
+    opacity: .5;
+}
+
+/*** POSICIONAMENTO DA IMAGEM DA LUPA ***/
+
+.lupa{
+    position: absolute;
+    top: 166px;
+    left: 420px;
+}
+
+/*** CONTEUDO PRINCIPAL ***/
+
+main{
+    height: 500px;
+}
+
+
+/*** SEÇÃO 01 NO CÓDIGO ***/
+
+section{
+    width: 900px;
+    height: 210px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    font-family: 'Lexend Deca';
+}
+
+h1{
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+color: #1A202C;
+}
+
+.texto-section{
+    font-size: 18px;
+    font-weight: 400;
+    color: #717171;
+}
+
+.coracao{
+    position: absolute;
+    top: 375px;
+    left: 1330px;
+    cursor: pointer;
+}
+
+/*** SEÇÃO 02 NO CÓDIGO***/
+
+.coracao1{
+    position: absolute;
+    top: 680px;
+    left: 1330px;
+    cursor: pointer;
+}
+
+/*** SEÇÃO 03 NO CÓDIGO***/
+
+.coracao2{
+    position: absolute;
+    top: 992px;
+    left: 1330px;
+    cursor: pointer;
+}
+
+/*** SEÇÃO 04 NO CÓDIGO***/
+
+.coracao3{
+    position: absolute;
+    top: 1305px;
+    left: 1330px;
+    cursor: pointer;
+}
