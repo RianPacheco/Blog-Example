@@ -8,10 +8,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 body{
     background-color: #ebebeb;
+    height: 1560px;
 }
 
 /*** CABEÇALHO ***/
@@ -19,12 +21,17 @@ body{
 header{
     height: 250px;
     background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
-   
 }
 
 /*** ESTILOS DE FONTE E TAMANHO DOS TEXTOS DA HEADER***/
 
 .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 970px;
+    height: 90px;
     color: #ffffff;
     font-family: 'Lexend Deca';
     font-weight: 400;
@@ -33,49 +40,47 @@ header{
     line-height: 30px;
 }
 
-/*** POSICIONAMENTO DO TEXTO BLOG***/
-
-.blog{
-    position: absolute;
-    width: 52px;
-    height: 30px;
-    left: 1445px;
-    top: 41px;
-}
-
-/*** POSICIONAMENTO DO TEXTO CODÊLANDIA ***/
-
-.codelandia{
-    position: absolute;
-    width: 133px;
-    height: 30px;
-    left: 401px;
-    top: 41px;
+.caixa-alta{
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 /*** POSICIONAMENTO E ESTILOS DA BARRA DE PESQUISA ***/
 
-input{
-    position: absolute;
-    width: 1100px;
-    height: 65px;
-    left: 400px;
-    top: 144px;
+.barra-pesquisa{
+    display: flex;
+    max-width: 50vw;
+    margin: 0 auto; 
     background: rgba(255, 255, 255, 0.2);
+    opacity: .5;
     border-radius: 5px;
-    font-size: 30px;
-    border: none;
+    gap: 20px;
+    padding: 0 0 0 15px;
 }
 
-/*** POSICIONAMENTO E ESTILOS DO TEXTO PESQUISAR NO BLOG ***/
+label{
+    width: 100%;
+}
 
-.pesquisar{
-    position: absolute;
-    width: 300px;
-    height: 20px;
-    left: 460px;
-    top: 168px;
-    font-size: 18px;
+input{
+    width: 100%;
+    height: 65px;
+    color: black;
+    font-size: 26px ;
+    background: rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+input::placeholder{
+    font-size: 20px;
     font-weight: 500;
     font-style: normal;
     line-height: 22px;
@@ -83,13 +88,6 @@ input{
     opacity: .5;
 }
 
-/*** POSICIONAMENTO DA IMAGEM DA LUPA ***/
-
-.lupa{
-    position: absolute;
-    top: 166px;
-    left: 420px;
-}
 
 /*** CONTEUDO PRINCIPAL ***/
 
@@ -125,36 +123,11 @@ color: #1A202C;
     color: #717171;
 }
 
-.coracao{
-    position: absolute;
-    top: 375px;
-    left: 1330px;
-    cursor: pointer;
+.pec{
+    display: flex;
+    justify-content: space-between;
 }
 
-/*** SEÇÃO 02 NO CÓDIGO***/
-
-.coracao1{
-    position: absolute;
-    top: 680px;
-    left: 1330px;
-    cursor: pointer;
-}
-
-/*** SEÇÃO 03 NO CÓDIGO***/
-
-.coracao2{
-    position: absolute;
-    top: 992px;
-    left: 1330px;
-    cursor: pointer;
-}
-
-/*** SEÇÃO 04 NO CÓDIGO***/
-
-.coracao3{
-    position: absolute;
-    top: 1305px;
-    left: 1330px;
+img{
     cursor: pointer;
 }
