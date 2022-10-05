@@ -30,7 +30,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    width: 970px;
+    width: 1022px;
     height: 90px;
     color: #ffffff;
     font-family: 'Lexend Deca';
@@ -130,4 +130,23 @@ color: #1A202C;
 
 img{
     cursor: pointer;
+}
+
+@media (max-width: 928px) {
+    .text{
+        width: 500px;
+    }
+
+    .barra-pesquisa{
+        max-width: 70vh
+    }
+
+    section{
+        width: 444px;
+        height: 360px;
+    }
+
+    .responsive{
+        height: 230px;
+    }
 }
