@@ -2,9 +2,9 @@
 
 ### link do projeto - https://rianpacheco.github.io/Codelandia-Desafio-1/
 
-#### Projeto feito 100% para didática e colocar em pratica as tecnologias em front-end.
+ Projeto feito 100% para didática e colocar em pratica as tecnologias em front-end.
 
-#### Projeto feito do Desafio do Servidor Codêlandia do Iuri-Code..
+ Projeto feito do Desafio do Servidor Codêlandia do Iuri-Code..
 
 ## Preview Desktop
 
