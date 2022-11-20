@@ -1,6 +1,6 @@
 # Codelandia-Desafio-1 &copy; Rian Pacheco 🚀
 
-### link do projeto - https://rianpacheco.github.io/Codelandia-Desafio-1/
+### link do projeto - https://rianpacheco.github.io/Blog-Example/
 
  Projeto feito 100% para didática e colocar em pratica as tecnologias em front-end.
 
